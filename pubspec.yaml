@@ -17,13 +17,19 @@ dependencies:
   cupertino_icons: ^1.0.8
   mobile_scanner: ^6.0.2       # For barcode scanning
   path: ^1.8.2                 # For file and path utilities
+  http: ^1.0.0
+  permission_handler: ^10.4.0
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
+
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/barcode.jpg
 
   # Add assets for database or images
